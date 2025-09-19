@@ -38,7 +38,17 @@ def square(start, end):
 
 def circle(start, end):
     """Draw circle from start to end."""
-    pass  # TODO
+    scale = 0.01
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    for count in range(180):
+        forward(scale * (end.x - start.x))
+        left(2)
+
+    end_fill()
 
 
 def rectangle(start, end):
@@ -48,7 +58,16 @@ def rectangle(start, end):
 
 def triangle(start, end):
     """Draw triangle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    for count in range(3):
+        forward(end.x - start.x)
+        left(120)
+
+    end_fill()
 
 
 def tap(x, y):
