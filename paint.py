@@ -35,7 +35,7 @@ def square(start, end):
 
     end_fill()
 
-#funcion nueva para dibujar un circulo
+# funcion nueva para dibujar un circulo
 def circle(start, end):
     """Draw circle from start to end."""
     scale = 0.01
@@ -50,7 +50,7 @@ def circle(start, end):
 
     end_fill()
 
-#funcion nueva para dibujar un hexagono
+# funcion nueva para dibujar un hexagono
 def hexagon(start, end):
     up()
     goto(start.x, start.y)
@@ -123,7 +123,7 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
-onkey(lambda: color('purple') 'P') #se agrego el color morado
+onkey(lambda: color('purple') 'P') # se agrego el color morado
 onkey(lambda: store('shape', hexagon), 'h')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
