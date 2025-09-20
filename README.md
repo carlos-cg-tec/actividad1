@@ -26,5 +26,5 @@ color nuevo agregado "purple" para paint.py al presionar shift + P cambiara de c
 	
 con las iniciales de cada uno, al presionar la tecla y darle click en el programa se dibujara sus respectivos figuras, por ejemplo:
 
-al presionar "c" y darle click se dibujara un circulo. ocurrira lo mismo para el triangulo y hexagono que son las figuras extras que se agrego a '[paint.py]' 
+al presionar "c" y darle click se dibujara un circulo. ocurrira lo mismo para el triangulo y hexagono que son las figuras extras que se agrego a paint.py 
 
