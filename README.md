@@ -14,17 +14,17 @@ Editamos el archivo **paint.py** para agregar nuevas figuras (círculo, rectáng
 
 
 # Funcionalidad
-	Paint.py mediante iniciales de cada color en ingles puedes cambiar de color por cada tecla, los colores que estan presentes son 
-# Implementacion de Circulo
-	con apretar la tecla C y despues darle click se dibujara un ciruclo
+
+Mediante iniciales de cada color en ingles puedes cambiar de color. el dar dos clicks dibuja la figura seleccionada (línea como predeterminado)
 
 # Implementacion de un color nuevo
-	color nuevo agregado "purple" para paint.py
-	al presionar shift + P cambiara de color automaticamente para poder dibujar lineas y figuras de ese color.
+	
+color nuevo agregado "purple" para paint.py al presionar shift + P cambiara de color automaticamente para poder dibujar lineas y figuras de ese color.
 
 
 # Se agregaron las funciones de circulo, triangulo y Hexagono
-	con las iniciales de cada uno, al presionar la tecla y darle click en el programa se dibujara sus respectivos figuras, por ejemplo
-	con al presionar "c" y darle click se dibujara un circulo. ocurrira lo mismo para el triangulo y hexagono que son las figuras extras
-	que se agrego para paint.py 
+	
+con las iniciales de cada uno, al presionar la tecla y darle click en el programa se dibujara sus respectivos figuras, por ejemplo:
+
+al presionar "c" y darle click se dibujara un circulo. ocurrira lo mismo para el triangulo y hexagono que son las figuras extras que se agrego a '[paint.py]' 
 
